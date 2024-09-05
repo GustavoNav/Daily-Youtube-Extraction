@@ -1,0 +1,11 @@
+logs/
+venv/
+__pycache__/
+standalone_admin_password.txt
+webserver_config.py
+airflow.cfg
+airflow.db
+airflow-webserver.pid
+keys_s3.py
+test_gold.py
+test_spark.py
