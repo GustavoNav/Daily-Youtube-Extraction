@@ -9,3 +9,4 @@ airflow-webserver.pid
 keys_s3.py
 test_gold.py
 test_spark.py
+*.json
