@@ -7,7 +7,7 @@ from pyspark.sql import SparkSession
 from pyspark.sql.functions import expr
 
 # Add project directory to python path
-sys.path.append(os.path.expanduser('~/projetos/projeto_airflow'))
+sys.path.append(os.path.expanduser('~/projetos/Daily-Youtube-Extraction'))
 
 from keys_s3 import access_key, secret_key
 
