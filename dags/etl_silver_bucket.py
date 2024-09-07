@@ -10,7 +10,7 @@ from pyspark.sql.types import StructType,StructField, StringType, IntegerType, D
 # Add project directory to python path
 sys.path.append(os.path.expanduser('~/projetos/projeto_airflow'))
 
-from keys_s3 import acess_key, secret_key
+from keys_s3 import access_key, secret_key
 
 # Get date yyyy-mm-dd
 current_date = datetime.now()
@@ -23,7 +23,7 @@ AWS_S3_CONN_ID = "my_s3_conn"
 SPARK = SparkSession.builder \
     .appName("Process to Silver Bucket") \
     .config("spark.hadoop.fs.s3a.endpoint", "http://localhost:9000") \
-    .config("spark.hadoop.fs.s3a.access.key", f"{acess_key}") \
+    .config("spark.hadoop.fs.s3a.access.key", f"{access_key}") \
     .config("spark.hadoop.fs.s3a.secret.key", f"{secret_key}") \
     .config("spark.jars.packages", "org.apache.hadoop:hadoop-aws:3.3.4,com.amazonaws:aws-java-sdk-bundle:1.11.901") \
     .config("spark.hadoop.fs.s3a.path.style.access", "true") \
