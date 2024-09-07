@@ -122,14 +122,21 @@ wget https://dlcdn.apache.org/spark/spark-3.5.2/spark-3.5.2-bin-hadoop3.tgz
 Extraia o arquivo:
 
 ```
-tar -xvf spark-*.tgz
+tar -xvzf spark-3.5.2-bin-hadoop3.tgz
 ```
 
 Crui um novo diretório no opt e mova o Apache Spark:
 
 ```
 sudo mkdir -p /opt/spark
-sudo mv spark-* /opt/spark
+sudo mv spark-3.5.2-bin-hadoop3/* /opt/spark/
+```
+
+Agora podemos excluir os arquivos deixados no diretório do projeto:
+
+```
+rm -rf spark-3.5.2-bin-hadoop3
+rm -rf spark-3.5.2-bin-hadoop3.tgz 
 ```
 
 Agora vamos configurar as variáveis de ambiente:
