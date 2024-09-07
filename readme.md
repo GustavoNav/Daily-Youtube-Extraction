@@ -18,7 +18,7 @@ Aplicação responsável por fazer a coleta de dados. Ele foi desenvolvido em um
 - collect_video (Coleta dados de vídeos)
 
 ## 🔧 Configuração
-
+O ambiente foi configurado no WSL 2.2.4.0 com Ubuntu version 2.
 ### 0. Clonar repositório
 Para clonar o repositório para sua maquina:
 
