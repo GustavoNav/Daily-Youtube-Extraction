@@ -202,7 +202,15 @@ Agora configure a conexão com o Minio, não altere nada, caso contrário vai ge
 
 !['Imagen da tela de criação de connection'](images/conn_creation.png)
 
-Salve a conexão e desta forma estará finalizado.
+Salve a conexão.
+
+Agora vamos adicionar o path aos arquivo: etl_youtube.py, etl_silver_bucket.py e etl_gold_bucket.py
+
+Mude a linha de código  no inicio de cada arquivo para direcionar ao diretório onde está o projeto na sua maquina.
+```
+sys.path.append(os.path.expanduser('~/projetos/projeto_airflow'))
+```
+
 
 ## Execução
 Para executar, é necessário que o container do Minio esteja ativo e o airflow online.
