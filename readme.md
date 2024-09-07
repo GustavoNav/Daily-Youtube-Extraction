@@ -208,7 +208,7 @@ Agora vamos adicionar o path aos arquivo: etl_youtube.py, etl_silver_bucket.py e
 
 Mude a linha de código  no inicio de cada arquivo para direcionar ao diretório onde está o projeto na sua maquina.
 ```
-sys.path.append(os.path.expanduser('~/projetos/projeto_airflow'))
+sys.path.append(os.path.expanduser('~/projetos/Daily-Youtube-Extraction'))
 ```
 
 
