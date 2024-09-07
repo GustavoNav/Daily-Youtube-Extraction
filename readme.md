@@ -129,7 +129,7 @@ Crui um novo diretório no opt e mova o Apache Spark:
 
 ```
 sudo mkdir -p /opt/spark
-mv spark-* /opt/spark
+sudo mv spark-* /opt/spark
 ```
 
 Agora vamos configurar as variáveis de ambiente:
