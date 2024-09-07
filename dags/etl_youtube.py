@@ -6,7 +6,7 @@ from airflow.decorators import dag, task
 from pympler import asizeof
 
 # Add project directory to python path
-sys.path.append(os.path.expanduser('~/projetos/projeto_airflow'))
+sys.path.append(os.path.expanduser('~/projetos/Daily-Youtube-Extraction'))
 
 # Import extract functions
 from extractors.collect_trending.run import run_extract_trending
