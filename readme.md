@@ -17,6 +17,11 @@ Aplicação responsável por fazer a coleta de dados. Ele foi desenvolvido em um
 - collect_trending (Coleta o url de todos os videos no trendings)
 - collect_video (Coleta dados de vídeos)
 
+
+### 📊 Dashboard no Power BI
+Eu disponibilizei um snapshot do dashboard com dados coletados de um único dia. Você pode acessar o arquivo no diretório 'power_bi_dashboard'. A ideia é mostrar as análises que podem ser realizadas utilizando os dados. No entanto, note que as visualizações foram feitas com um conjunto de dados pequeno, o que limita os insights que podem ser obtidos.
+
+
 ## 🔧 Configuração
 O ambiente foi configurado no WSL 2.2.4.0 com Ubuntu version 2.
 ### 0. Clonar repositório
