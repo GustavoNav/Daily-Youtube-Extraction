@@ -125,9 +125,10 @@ Extraia o arquivo:
 tar -xvf spark-*.tgz
 ```
 
-Mova o Apache Spark para o opt:
+Crui um novo diretório no opt e mova o Apache Spark:
 
 ```
+sudo mkdir -p /opt/spark
 mv spark-* /opt/spark
 ```
 
